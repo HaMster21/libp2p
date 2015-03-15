@@ -5,6 +5,8 @@ set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake_modules)
 
+find_package(boost 1.55 REQUIRED system)
+
 add_subdirectory(src)
 add_subdirectory(test)
 
