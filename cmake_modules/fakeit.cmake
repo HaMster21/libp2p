@@ -5,8 +5,8 @@ include(ExternalProject)
 ExternalProject_Add(
     fakeit
     PREFIX ${CMAKE_BINARY_DIR}/external/fakeit
+    EXCLUDE_FROM_ALL 1
     GIT_REPOSITORY https://github.com/eranpeer/FakeIt.git
-    TIMEOUT 10
     UPDATE_COMMAND ${GIT_EXECUTABLE} pull
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
