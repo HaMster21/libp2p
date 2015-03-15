@@ -1,4 +1,4 @@
-project(libp2p CXX)
+project(libp2p VERSION 0.0.1)
 
 add_library(libp2p connection.hpp
                    connection.cpp)

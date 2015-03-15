@@ -1,2 +1,10 @@
+namespace Routing {
 
-auto number = 42;
+    struct Peer
+    {
+        int id;
+        char[16] ip;
+        int port;
+    };
+
+}
