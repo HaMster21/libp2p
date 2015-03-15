@@ -6,6 +6,6 @@ using namespace Routing;
 
 TEST_CASE("Constructing Peers", "[peers]")
 {
-    auto peer = Peer{};
-    REQUIRE(peer.id == 0)
+    auto peer = Peer();
+    REQUIRE(peer.id == 0);
 }

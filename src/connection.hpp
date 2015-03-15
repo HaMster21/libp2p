@@ -3,7 +3,7 @@ namespace Routing {
     struct Peer
     {
         int id;
-        char[16] ip;
+        char ip[16];
         int port;
     };
 
